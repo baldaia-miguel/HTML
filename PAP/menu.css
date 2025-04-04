@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do corpo */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Estilização do menu */
+#menu {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos do menu */
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px 0;
+    color: #af0505;
+    border-bottom: 2px solid #af0505;
+    padding-bottom: 5px;
+}
+
+/* Itens do menu */
+.menu-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding: 10px;
+    border-left: 5px solid #ff2600;
+    background: #ffe4df;
+    margin: 10px 0;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+/* Destaque para preços */
+.menu-item p::before {
+    content: "🍽️ ";
+    font-size: 1.2em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #menu {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .menu-item p {
+        font-size: 1em;
+    }
+}
