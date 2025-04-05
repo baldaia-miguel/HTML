@@ -6,6 +6,46 @@
     font-family: Arial, sans-serif;
 }
 
+.menu {
+    padding: 20px 10%;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu .quadrado {
+    width: 20%;
+    background-color: #333;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 20px 20px;
+    color: #fff;
+    margin-left: 20px;
+}
+.menu .quadrado  img{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu .quadrado h3{
+    text-align: left;
+    width: 70%;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.menu .quadrado .price{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 20px;
+    color:#e47914;
+    padding-top: 10px;
+}
+
+
 /* Estilização do corpo */
 body {
     background-color: #f8f8f8;
