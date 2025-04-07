@@ -1,11 +1,9 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial;
 }
-
 
 /* Estilizando o corpo */
 body {
@@ -16,33 +14,41 @@ body {
 
 /* Cabeçalho */
 .square {
-            
     background-color: #D9D9D9;
 }
+
 .square1 {
     width: 140px;
     height: 82px;
-    background-image: url("img/387823___serialized1.jpg") ;
+    background-image: url("img/387823___serialized1-removebg-preview.png");
     background-size: cover;
+    margin: 0 auto; /* centraliza o logo */
 }
+
 header {
-    background: #772a21;
+    background: #ffffff;
     color: white;
-    padding: 12px;
+    padding: 12px 0;
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+nav {
+    display: inline-block; /* Centraliza o bloco de navegação */
 }
 
 nav ul {
     list-style: none;
     margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
 }
 
 nav ul li {
-    display: inline;
-    margin:  15px;
+    margin: 0 15px; /* Espaçamento entre os itens */
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
@@ -54,10 +60,9 @@ nav ul li a {
     background-position: center !important;
     background-size: cover !important;
     width: 100%;
-    height: 8rem;
+    height: 25rem;
     color: white;
     padding: 100px 10px;
-
 }
 
 .banner h2 {
