@@ -28,7 +28,7 @@ body {
 header {
     background: #ffffff;
     color: white;
-    padding: 12px 0;
+    padding: 12px ;
     text-align: center; /* Centraliza o conteúdo do cabeçalho */
 }
 
@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 20px; /* Espaçamento entre os itens */
+    margin: 12px; /* Espaçamento entre os itens */
 }
 
 nav ul li a {
@@ -62,13 +62,8 @@ nav ul li a {
     width: 100%;
     height: 25rem;
     color: white;
-    padding: 100px 10px;
+    padding: 250px 10px;
 }
-
-.banner h2 {
-    font-size: 2.5em;
-}
-
 section {
     padding: 50px 50px;
 }
@@ -79,7 +74,7 @@ section:nth-child(even) {
 
 /* Rodapé */
 footer {
-    background: #333;
-    color: white;
+    background: #ffffff;
+    color:  black;
     padding: 20px;
 }

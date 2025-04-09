@@ -1,0 +1,33 @@
+.square1 {
+    width: 140px;
+    height: 82px;
+    background-image: url("img/387823___serialized1-removebg-preview.png");
+    background-size: cover;
+    margin: 0 auto; /* centraliza o logo */
+}
+
+header {
+    background: #ffffff;
+    color: white;
+    padding: 12px 0;
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+nav {
+    display: inline-block; /* Centraliza o bloco de navegação */
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+}
+nav ul li {
+    margin: 12px; /* Espaçamento entre os itens */
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
