@@ -7,7 +7,7 @@
 /* Estilizando o corpo */
 body {
     font-family: 'Nunito', sans-serif !important;
-    background: #fefefe;
+    background: #c7c7c7;
     color: #333;
     line-height: 1.6;
     text-align: center;
@@ -27,56 +27,57 @@ body {
 
 header {
     background: #ffffff;
-    color: white;
-    padding: 12px ;
-    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    padding: 18px;
+    text-align: center;
 }
 
 nav {
-    display: inline-block; /* Centraliza o bloco de navegação */
+    display: inline-block;
+    margin-top: 15px;
 }
 
 nav ul {
     list-style: none;
-    margin-top: 10px;
     display: flex;
-    justify-content: center; /* Centraliza os itens do menu */
-}
-
-nav ul li {
-    margin: 12px; /* Espaçamento entre os itens */
+    justify-content: center;
+    gap: 15px;
 }
 
 nav ul li a {
-    color: black;
+    color: #333;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease; /* transição suave */
+}
+
+nav ul li a:hover {
+    background: #333; /* muda o fundo */
+    color: #fff;       /* muda a cor do texto */
 }
 
 /* Banner */
 .banner {
-    background-image: url('https://lifecooler.com/files/registos/imagens/452199/387827.jpg') !important;
+    background-image: url('/img/4-platanos.jpg') !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-size: cover !important;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     color: rgb(255, 255, 255);
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 250px 10px;
 }
 
 section {
-    padding: 100px 50px;
+    padding: 80px 300px;
 }
 
-section:nth-child(even) {
-    background: #ffffff;
-}
+
 #contato i {
     color: #555;
-    margin-right: 8px;
 }
 /* Rodapé */
 footer {

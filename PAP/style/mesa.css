@@ -10,49 +10,55 @@
     color: #333;
     line-height: 1.6;
   }
-  .square1 {
+  /* Cabeçalho */
+.square {
+  background-color: #D9D9D9;
+}
+
+.square1 {
   width: 140px;
   height: 82px;
   background-image: url("../img/387823___serialized1-removebg-preview.png");
   background-size: cover;
   margin: 0 auto; /* centraliza o logo */
-  }
+}
 
-  header {
+header {
   background: #ffffff;
-  color: white;
-  padding: 12px ;
-  text-align: center; /* Centraliza o conteúdo do cabeçalho */
-  }
-  
+  padding: 18px;
+  text-align: center;
+}
 
-  header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 10px;
-  }
-  nav {
-  display: inline-block; /* Centraliza o bloco de navegação */
-  }
+nav {
+  display: inline-block;
+  margin-top: 15px;
+}
 
-  nav ul {
+nav ul {
   list-style: none;
-  margin-top: 10px;
   display: flex;
-  justify-content: center; /* Centraliza os itens do menu */
-  }
+  justify-content: center;
+  gap: 15px;
+}
 
-  nav ul li {
-  margin: 12px; /* Espaçamento entre os itens */
-  }
-
-  nav ul li a {
-  color: black;
+nav ul li a {
+  color: #333;
   text-decoration: none;
-  font-weight: bold;
-  }
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease; /* transição suave */
+}
+
+nav ul li a:hover {
+  background: #333; /* muda o fundo */
+  color: #fff;       /* muda a cor do texto */
+}
   #reserva {
-    padding: 50px;
+    padding: 80px;
     background-color: #f5f5f5;
+    background-image: url(../img/4-platanos.jpg);
+    background-size: cover;
 }
 
 .reserva-form {
