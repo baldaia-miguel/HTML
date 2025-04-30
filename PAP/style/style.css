@@ -78,9 +78,41 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
+
 }
 .about p {
     max-width: 500px;
+}
+#galeria {
+    padding: 60px 20px;
+    background: #fff;
+}
+
+#galeria h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.galeria-imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeria-imagens img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria-imagens img:hover {
+    transform: scale(1.05);
 }
 
 .contato i {

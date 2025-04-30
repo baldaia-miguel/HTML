@@ -54,10 +54,10 @@ nav ul li a:hover {
   background: #333;
   color: #fff;
 }
-  #reserva {
+  
+.reserva {
     padding: 80px;
     background-color: #f5f5f5;
-    background-image: url(../img/4-platanos.jpg);
     background-size: cover;
 }
 
@@ -67,6 +67,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
 }
 
 .reserva-form label {
