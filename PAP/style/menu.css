@@ -30,29 +30,29 @@ header {
 }
 
 nav {
-  display: inline-block;
   margin-top: 15px;
 }
 
 nav ul {
   list-style: none;
-  display: flex;
+  display: flex; 
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
+  padding: 10px 0;
 }
 
 nav ul li a {
   color: #333;
   text-decoration: none;
   font-weight: 600;
-  padding: 10px;
-  border-radius: 8px;
-  transition: background 0.3s ease, color 0.3s ease; /* transição suave */
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.3s ease;
 }
 
 nav ul li a:hover {
-  background: #333; /* muda o fundo */
-  color: #fff;       /* muda a cor do texto */
+  background: #333;
+  color: #fff;
 }
 
   .menu {
