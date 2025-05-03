@@ -6,11 +6,11 @@
 
   body {
     font-family: 'Nunito', sans-serif;
-    background: #fefefe;
+    background-color: #fefefe;
     color: #333;
     line-height: 1.6;
   }
-  /* Cabeçalho */
+ 
 .square {
   background-color: #D9D9D9;
 }
@@ -57,8 +57,7 @@ nav ul li a:hover {
   
 .reserva {
     padding: 80px;
-    background-color: #f5f5f5;
-    background-size: cover;
+    background-color: rgba(255,255,255, 0.85);
 }
 
 .reserva-form {

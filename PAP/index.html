@@ -4,57 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4 Plátanos</title>
+    <title>Restaurante 4 Plátanos</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="img/387823___serialized1-removebg-preview.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="square1"></div>
             <ul>
-                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#">Início</a></li>
                 <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html#reserva">Reservar</a></li>
                 <li><a href="#contato">Contato</a></li>
-                <li><a href="mesa.html">Reserve uma Mesa</a></li>
+
             </ul>
         </nav>
     </header>
+
+
     <section id="home" class="banner">
-        
+        <div class="banner-content">
+            <h1> 4 Plátanos</h1>
+            <p>Experiência gastronómica única nos Açores</p>
+            <a href="#reserva" class="btn">Reserve Agora</a>
+        </div>
     </section>
+
     <section class="about">
         <p>Priorizamos a qualidade na cozinha, oferecendo vivências gastronómicas inesquecíveis aos nossos clientes.
-            Nosso objetivo é valorizar a gastronomia típica dos Açores, exaltando sabores genuínos e recebendo todos com hospitalidade.</p>
+            Nosso objetivo é valorizar a gastronomia típica dos Açores, exaltando sabores genuínos e recebendo todos com
+            hospitalidade.</p>
     </section>
-    <section id="galeria">
-        
-        <div class="galeria-imagens">
-          <img src="img/4pext.jpg">
-          <img src="img/vista comida.jpg">
-          <img src="img/vista comida.jpg">
-          <img src="img/int4p.jpg">
-          <img src="img/vista comida.jpg">
-          <img src="img/vista comida.jpg">
+
+    <section id="menu" class="menu">
+        <h2>Nosso Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Bife À Regional</h3>
+                <p>DADAASASADDADA</p>
+            </div>
+            <div class="item">
+                <h3>Bacalhau Frito</h3>
+                <p>ADADSADADDADA</p>
+            </div>
+            <div class="item">
+                <h3>Peito de Frango Panado</h3>
+                <p> ADADAADADSASA</p>
+            </div>
         </div>
-      </section>
-    <section id="horário">
-        <h3>Horário</h3>
-        <p> Segunda-feira: 06:30 - 17:00</p>
-        <p>Terça-feira - Domingo 06:30 - 22:00</p>
-    <section class="contato">
-        <h3>Contato</h3>
+
+        <a href="menu.html" class="botao-ver-mais">Ver Mais</a>
+
+    </section>
+
+    </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria-imagens">
+            <img src="img/4pext.jpg" alt="Exterior do restaurante">
+            <img src="img/int4p.jpg" alt="Interior do restaurante">
+            <img src="img/vista comida.jpg" alt="Prato do menu">
+        </div>
+    </section>
+
+    <section id="reserva" class="reserva">
+        <h2>Reserve A Sua Mesa</h2>
+        <form class="reserva-form" action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu email" required>
+            <input type="tel" name="telefone" placeholder="Seu telefone" required>
+            <input type="date" name="data" required>
+            <input type="time" name="hora" required>
+            <input type="number" name="pessoas" placeholder="Nº de pessoas" min="1" max="20" required>
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
         <p><i class="fa-solid fa-location-dot"></i> Estrada Regional, 39A - Santo António</p>
-        <p><i class="fa-solid fa-phone"></i> 296918241</p>
+        <p><i class="fa-solid fa-phone"></i> 296 918 241</p>
         <p><i class="fa-solid fa-envelope"></i> 4platanos@gmail.com</p>
-    </section>
-    <section>
+        <section class="horario">
+            <h2>Horário</h2>
+            <p>Segunda-feira: 06:30 - 17:00</p>
+            <p>Terça-feira a Domingo: 06:30 - 22:00</p>
+        </section>
+
         <footer>
-            <p>&copy; 2025 Restaurante 4 Plátanos </p>
+            <p>&copy; 2025 Restaurante 4 Plátanos. Todos os direitos reservados.</p>
         </footer>
-    </section>
 </body>
 
 </html>
